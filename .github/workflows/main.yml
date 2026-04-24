@@ -2,7 +2,7 @@ name: Build YouProEXTRA IPA
 on:
   workflow_dispatch:
     inputs:
-    ipa_url:
+      ipa_url:
         description: "Direct URL to YouPro IPA"
         default: ""
         required: true
